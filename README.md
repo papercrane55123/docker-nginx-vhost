@@ -1,7 +1,9 @@
 # docker nginx vhost
 ![304601299-878eaf6a-18bc-4467-8b3f-5086de8ff3a1](https://github.com/papercrane55123/docker-nginx-vhost/assets/150432433/4e1b47ab-0550-4799-86ea-898f27cff012)
 
-# How to
+# 하나의 nginx 포트에만 접속할 수 있도록 제한하기(+ 네트워크 설정)
+https://blog.naver.com/mini_crane_/223353642333
+
 1) 환경설정
 도커 이미지와 컨테이너가 아래와 같이 나타나도록 만들어놓자
 ```sh
@@ -33,10 +35,7 @@ $ sudo docker cp config/default.conf lb:/etc/nginx/conf.d/
 ```
 물론 컨테이터 안에서 직접 입력해도 좋다.
 
-4)
-
-
-
-
+# Dockerfile 생성 및 build하기
+https://blog.naver.com/mini_crane_/223353541818
 
 # load balancing
